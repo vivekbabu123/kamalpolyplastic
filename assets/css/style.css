@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Oswald", sans-serif;
+}
+@font-face {
+   font-family: "Oswald", sans-serif;
+}
+    src: url(../fonts/Oswald-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Oswald", sans-serif;
+}
+    src: url(../fonts/Oswald-ExtraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Oswald", sans-serif;
+}
+    src: url(../fonts/Oswald-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Oswald", sans-serif;
+}
+    src: url(../fonts/Oswald-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Oswald", sans-serif;
+}
+    src: url(../fonts/Oswald-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Oswald", sans-serif;
+}
+    src: url(../fonts/Oswald-SemiBold.ttf);
+    font-weight:600;
+}
+:root {
+    --white-color: #fff;
+    --black-color:#000;
+    --red-color:#BC3220;
+
+}
+.top_header{
+    background-color: var(--red-color);
+    padding: 10px 0;
+}
+.main_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_top ul{
+    display: flex;
+    margin-bottom: 0px;
+   
+}
+.bx{
+    line-height: 0 !important;
+}
+
+.left_top ul li{
+    padding: 0 10px;
+    list-style: none;
+}
+.left_top a{
+    text-decoration: none !important;
+    color: var(--white-color);
+}
+.left_top a:hover{
+  
+    color: var(--white-color);
+}
+.left_top span{
+    padding: 0 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.left_top i{
+    color: var(--white-color);
+    font-size: 18px;
+ 
+}
+.right_top ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.right_top li{
+    list-style: none;
+    padding: 0 10px;
+}
+.right_top i{
+  font-size: 18px;
+  color: var(--white-color);
+}
+.menu_btn button{
+    background-color: var(--red-color);
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.menu_btn button:hover{
+    background-color: var(--black-color);
+  
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  /* kamal sub-title start */
+  .kamal_polyplast{
+    padding: 60px 0;
+    background-image: url(../image/banner/);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+  .sub-title{
+    color: #f8f8f8;
+    line-height: 80px;
+    
+  }
+  .sub-title{
+    text-align: center;
+    font-size: 7.143rem;
+  }
+  .title{
+    position: absolute;
+    font-size: 2.143rem;
+    
+    top: 27px;
+    left: 0;
+    right: 0;
+}
+.title h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #555;
+  
+}
+.title_bottom {
+    color: #BC3220;
+    height: 4px !important;
+    width: 100px;
+    margin: 0 auto;
+}
+.slz-shortcode .inline_block {
+    float: none;
+    position: relative;
+    left: 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -5px;
+}
+.content-accountant-service .col-md-4:nth-last-child(-n + 3) .main-accountant-service {
+    margin-bottom: 0;
+}
+.content-accountant-service .main-accountant-service {
+    margin-bottom: 80px;
+}.content-accountant-service .main-accountant-service .title1 {
+    font-size: 18px;
+}
+.content-accountant-service .main-accountant-service .title1 {
+    color: #555;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+}
+.content-accountant-service .service-salary {
+    padding: 10px 30px 50px 30px;
+    position: relative;
+    min-height: 306px;
+}
+.content-accountant-service .service-salary {
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    padding: 50px 30px 40px 30px;
+    position: relative;
+}
+
+.service-salary {
+    background: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+.content-accountant-service .service-salary:hover:before, .content-accountant-service .service-salary:hover:after {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.content-accountant-service .service-salary:before {
+    border-left: 1px solid #BC3220;
+    border-right: 1px solid #BC3220;
+    transform: scale(1, 0);
+    -webkit-transform: scale(1, 0);
+    -moz-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    -o-transform: scale(1, 0);
+}
+.content-accountant-service .service-salary:before, .content-accountant-service .service-salary:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content-accountant-service .service-salary {
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    padding: 50px 30px 40px 30px;
+    position: relative;
+}
+
+.content-accountant-service .service-salary .text {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #7a7a7a;
+}
+
+.content-accountant-service .service-salary {
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    padding: 50px 30px 40px 30px;
+    position: relative;
+}
+.btnreadmore {
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    z-index: 9999;
+}
+.content-accountant-service .service-salary:after {
+    border-top: 1px solid #BC3220;
+    border-bottom: 1px solid #BC3220;
+    transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+    -moz-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    -o-transform: scale(0, 1);
+}
+.content-accountant-service .service-salary:before, .content-accountant-service .service-salary:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+a.readmoreabslut {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #BC3220;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+a.readmoreabslut:hover{
+    color: #fff;
+}
+
+.content-accountant-service .service-salary {
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    padding: 50px 30px 40px 30px;
+    position: relative;
+}
+.content-accountant-service .main-accountant-service .title1 .title1:before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    right: 0;
+    width: 1px;
+    height: 40px;
+    background-color: #BC3220;
+}
+
+.content-accountant-service .main-accountant-service .title1 {
+    font-size: 18px;
+}
+.content-accountant-service .main-accountant-service .title1 {
+    color: #555;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    font-family: "Oswald", sans-serif;
+}
+
+.Our_product{
+    padding: 150px 0;
+}
+.product-subtitle{
+    color: #f8f8f8;
+    line-height: 80px;
+    text-align: center;
+    font-size: 7.143rem;
+    
+  }
+
+  .product-title1{
+    position: absolute;
+    font-size: 2.143rem;
+    
+    top: 27px;
+    left: 0;
+    right: 0;
+}
+.product-title1 h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #555;
+  
+}
+.title_bottom {
+    color: #BC3220;
+    height: 4px !important;
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+
+
+  /* kamal sub-title finish */
